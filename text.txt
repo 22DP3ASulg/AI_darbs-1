@@ -1,0 +1,49 @@
+Patstāvīgais darbs
+“Mākslīgā intelekta izmantošana programmatūrā ar API”
+
+1. Izveidot publisku GitHub repozitoriju ar nosaukumu “AI_darbs-1”, kurā zem “main” branch atrodas tikai README.md.
+
+2. Klonēt GitHub repozitoriju uz savas sistēmas un izveidot jaunu branch ar nosaukumu “console-app”. To var izdarīt ar komandu “git checkout -b console-app” pēc parauga attēlā.
+
+3. Izveidotajā GitHub branch izveidot Python programmu, kas, izmantojot huggingface_hub un OpenAI bibliotēkas:
+   • Apkopo informāciju no teksta faila .txt formātā, izmantojot kādu no teksta apkopošanai paredzētiem modeļiem Hugging Face platformā[](https://huggingface.co/models?inference_provider=hf-inference&sort=trending);
+   • Atlasa ievadītā teksta aprakstošu atslēgvārdu sarakstu, atbilstoši lietotāja ievadītajam atslēgvārdu skaitam, izmantojot kādu no teksta ģenerēšanai paredzētiem modeļiem Hugging Face platformā;
+   • Ģenerē testveida jautājumus ar četriem atbilžu variantiem par ievadīto tekstu, izmantojot kādu no teksta ģenerēšanai paredzētiem modeļiem Hugging Face platformā.
+
+4. Izveidot Pull Request, kurā tiek aprakstīts sasniegtais rezultāts un pievienoti ekrānšāviņi ar veiksmīgu koda izpildi un kļūdu novēršanu.
+
+5. Iesniegt Pull Request URL saiti E-klasē līdz 06.11.2025. pulksten 23.59.
+
+Ieteikumi kvalitatīva koda izstrādei:
+• Ievērot SOLID principus koda izstrādes procesā.
+• Rakstīt “tīru” un lasāmu kodu, izmantojot saprotamus mainīgo un funkciju nosaukumus un pievienojot komentārus vietās, kur var būt nepieciešama papildus informācija.
+• Ievērot DRY (Don’t Repeat Yourself) principu.
+• Paredzēt un apstrādāt jebkuru iedomājamu kļūdu kodā, kas var izraisīties neparedzamā situācijā.
+
+Vērtēšanas kārtība: darbs tiek vērtēts formatīvi, saskaņā ar vērtēšanas kritērijiem (skat. 1. tabulā), bet tā laicīga, kvalitatīva izpilde tiks ņemta vērā nākamā summatīvā darba vērtēšanā. Maksimālais vērtējums par darbu ir 100 punkti.
+
+Patstāvīgā darba “Mākslīgā intelekta izmantošana programmatūrā ar API” vērtēšanas kritēriji
+
+Sistēmas pamata funkcionalitātes
++15 – teksta apkopošana ar huggingface_hub
++15 – teksta atslēgvārdu ģenerēšana ar OpenAI
++20 – viktorīnas jautājumu ģenerēšana ar OpenAI
+Kopā: 50
+
+Kļūdu apstrāde
++15 – API kļūdu apstrāde
++15 – lietotāja ievades kļūdu apstrāde
+Kopā: 30
+
+API atslēgas drošība
++10 – API atslēga nav tieši iekļauta kodā un tiek droši glabāta .env failā, kas netiek iekļauts repozitorijā
+Kopā: 10
+
+Korekta uzdevuma iesniegšana
++5 – izveidots Pull Request no branch “console-app”
++5 – Pull Request aprakstā tiek aprakstīts paveiktais, demonstrējot koda darbību
+Kopā: 10
+
+1. tabula. Vērtēšanas kritēriji
+
+Neskaidrību gadījumā jautājumus par patstāvīgo darbu var uzdot, rakstot uz e-pastu aigars.cirulis@rvt.lv, e-klases pastā vai attālinātā MS Teams laikā.з
